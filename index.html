@@ -12,10 +12,10 @@
 
 <body>
     <div id="app">
+        <button @click="pushEmail">Aggiungi Email</button>
         <ul>
           <li v-for="email in emails">{{ email }}</li>
         </ul>
-        <button @click="pushEmail">Aggiungi Email</button>
       </div>
 
     <script src="./js/app.js"></script>
